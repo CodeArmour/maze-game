@@ -79,7 +79,7 @@ export default function StartScreen({ onStart }: StartScreenProps) {
           </CardDescription>
         </CardHeader>
         <CardContent className="flex justify-center">
-          <img src="/placeholder.svg?height=200&width=200" alt="Maze Game Logo" className="h-40 w-40 object-contain" />
+          <img src="/maze.png?height=200&width=200" alt="Maze Game Logo" className="h-40 w-40 object-contain" />
         </CardContent>
         <CardFooter className="flex justify-center">
           <Button size="lg" onClick={onStart}>
